@@ -1,22 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from '@material-ui/core';
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>App</code> Mi aplicacion React
+          Hola <code>App</code> Mi aplicacion React
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Samuel Parada
-        </a>
+
+ <Button color="primary">Hello World</Button>;
+
       </header>
     </div>
   );

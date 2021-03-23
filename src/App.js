@@ -12,7 +12,7 @@ function App() {
           Hola <code>App</code> Mi aplicacion React
         </p>
 
- <Button color="primary">Hello World</Button>;
+ <Button color="primary">Hello World</Button>
 
       </header>
     </div>
